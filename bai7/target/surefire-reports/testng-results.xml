@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-21T16:32:39 GMT+07:00" name="Bai7_Refactor_Suite" finished-at="2026-03-21T16:32:52 GMT+07:00" duration-ms="12552">
+    <groups>
+    </groups>
+    <test started-at="2026-03-21T16:32:39 GMT+07:00" name="Refactor Tests" finished-at="2026-03-21T16:32:52 GMT+07:00" duration-ms="12552">
+      <class name="framework.tests.LoginRefactorTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:framework.tests.LoginRefactorTest@3270d194]" started-at="2026-03-21T16:32:40 GMT+07:00" name="setUp" finished-at="2026-03-21T16:32:41 GMT+07:00" duration-ms="1149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:framework.tests.LoginRefactorTest@3270d194]" started-at="2026-03-21T16:32:41 GMT+07:00" name="testLoginFromExcel" data-provider="loginData" finished-at="2026-03-21T16:32:42 GMT+07:00" duration-ms="1351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[success]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Login thành công với tài khoản hợp lệ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFromExcel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.tests.LoginRefactorTest@3270d194]" started-at="2026-03-21T16:32:42 GMT+07:00" name="tearDown" finished-at="2026-03-21T16:32:42 GMT+07:00" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:framework.tests.LoginRefactorTest@3270d194]" started-at="2026-03-21T16:32:42 GMT+07:00" name="setUp" finished-at="2026-03-21T16:32:43 GMT+07:00" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:framework.tests.LoginRefactorTest@3270d194]" started-at="2026-03-21T16:32:43 GMT+07:00" name="testLoginFromExcel" data-provider="loginData" finished-at="2026-03-21T16:32:44 GMT+07:00" duration-ms="847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Login thất bại do tài khoản bị khóa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFromExcel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.tests.LoginRefactorTest@3270d194]" started-at="2026-03-21T16:32:44 GMT+07:00" name="tearDown" finished-at="2026-03-21T16:32:44 GMT+07:00" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:framework.tests.LoginRefactorTest@3270d194]" started-at="2026-03-21T16:32:44 GMT+07:00" name="setUp" finished-at="2026-03-21T16:32:45 GMT+07:00" duration-ms="698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:framework.tests.LoginRefactorTest@3270d194]" started-at="2026-03-21T16:32:45 GMT+07:00" name="testLoginFromExcel" data-provider="loginData" finished-at="2026-03-21T16:32:46 GMT+07:00" duration-ms="815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Login thất bại do sai mật khẩu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFromExcel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.tests.LoginRefactorTest@3270d194]" started-at="2026-03-21T16:32:46 GMT+07:00" name="tearDown" finished-at="2026-03-21T16:32:46 GMT+07:00" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:framework.tests.LoginRefactorTest@3270d194]" started-at="2026-03-21T16:32:46 GMT+07:00" name="setUp" finished-at="2026-03-21T16:32:47 GMT+07:00" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:framework.tests.LoginRefactorTest@3270d194]" started-at="2026-03-21T16:32:47 GMT+07:00" name="testLoginFromExcel" data-provider="loginData" finished-at="2026-03-21T16:32:48 GMT+07:00" duration-ms="979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Login thất bại khi để trống username và password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFromExcel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.tests.LoginRefactorTest@3270d194]" started-at="2026-03-21T16:32:48 GMT+07:00" name="tearDown" finished-at="2026-03-21T16:32:48 GMT+07:00" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- framework.tests.LoginRefactorTest -->
+      <class name="framework.tests.CartRefactorTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:framework.tests.CartRefactorTest@c730b35]" started-at="2026-03-21T16:32:48 GMT+07:00" name="setUp" finished-at="2026-03-21T16:32:49 GMT+07:00" duration-ms="780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddFirstItemToCart()[pri:0, instance:framework.tests.CartRefactorTest@c730b35]" started-at="2026-03-21T16:32:49 GMT+07:00" name="testAddFirstItemToCart" finished-at="2026-03-21T16:32:50 GMT+07:00" duration-ms="1059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddFirstItemToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.tests.CartRefactorTest@c730b35]" started-at="2026-03-21T16:32:50 GMT+07:00" name="tearDown" finished-at="2026-03-21T16:32:50 GMT+07:00" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:framework.tests.CartRefactorTest@c730b35]" started-at="2026-03-21T16:32:50 GMT+07:00" name="setUp" finished-at="2026-03-21T16:32:51 GMT+07:00" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGoToCartAfterAddItem()[pri:0, instance:framework.tests.CartRefactorTest@c730b35]" started-at="2026-03-21T16:32:51 GMT+07:00" name="testGoToCartAfterAddItem" finished-at="2026-03-21T16:32:52 GMT+07:00" duration-ms="1254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoToCartAfterAddItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.tests.CartRefactorTest@c730b35]" started-at="2026-03-21T16:32:52 GMT+07:00" name="tearDown" finished-at="2026-03-21T16:32:52 GMT+07:00" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- framework.tests.CartRefactorTest -->
+    </test> <!-- Refactor Tests -->
+  </suite> <!-- Bai7_Refactor_Suite -->
+</testng-results>

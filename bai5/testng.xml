@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Bai5_Config_Suite" parallel="false">
+    <test name="Environment Config Test">
+        <classes>
+            <class name="framework.tests.EnvironmentTest"/>
+        </classes>
+    </test>
+    <listeners>
+    <listener class-name="framework.retry.RetryListener"/>
+</listeners>
+</suite>

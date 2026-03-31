@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Bai7_Refactor_Suite" parallel="false">
+    <test name="Refactor Tests">
+        <classes>
+            <class name="framework.tests.LoginRefactorTest"/>
+            <class name="framework.tests.CartRefactorTest"/>
+        </classes>
+    </test>
+</suite>

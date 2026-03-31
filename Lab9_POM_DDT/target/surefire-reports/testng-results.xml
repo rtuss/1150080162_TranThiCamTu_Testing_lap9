@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-20T22:20:31 GMT+07:00" name="SauceDemo Suite" finished-at="2026-03-20T22:21:20 GMT+07:00" duration-ms="49267">
+    <groups>
+    </groups>
+    <test started-at="2026-03-20T22:20:31 GMT+07:00" name="SauceDemo Tests" finished-at="2026-03-20T22:21:20 GMT+07:00" duration-ms="49267">
+      <class name="framework.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:framework.tests.LoginTest@3c19aaa5]" started-at="2026-03-20T22:20:31 GMT+07:00" name="setUp" finished-at="2026-03-20T22:20:50 GMT+07:00" duration-ms="18617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithInvalidPassword()[pri:0, instance:framework.tests.LoginTest@3c19aaa5]" started-at="2026-03-20T22:20:50 GMT+07:00" name="testLoginWithInvalidPassword" finished-at="2026-03-20T22:20:50 GMT+07:00" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.tests.LoginTest@3c19aaa5]" started-at="2026-03-20T22:20:50 GMT+07:00" name="tearDown" finished-at="2026-03-20T22:20:50 GMT+07:00" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:framework.tests.LoginTest@3c19aaa5]" started-at="2026-03-20T22:20:50 GMT+07:00" name="setUp" finished-at="2026-03-20T22:20:53 GMT+07:00" duration-ms="3079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithLockedUser()[pri:0, instance:framework.tests.LoginTest@3c19aaa5]" started-at="2026-03-20T22:20:53 GMT+07:00" name="testLoginWithLockedUser" finished-at="2026-03-20T22:20:54 GMT+07:00" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithLockedUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.tests.LoginTest@3c19aaa5]" started-at="2026-03-20T22:20:54 GMT+07:00" name="tearDown" finished-at="2026-03-20T22:20:54 GMT+07:00" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:framework.tests.LoginTest@3c19aaa5]" started-at="2026-03-20T22:20:54 GMT+07:00" name="setUp" finished-at="2026-03-20T22:20:58 GMT+07:00" duration-ms="3998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithValidAccount()[pri:0, instance:framework.tests.LoginTest@3c19aaa5]" started-at="2026-03-20T22:20:58 GMT+07:00" name="testLoginWithValidAccount" finished-at="2026-03-20T22:20:58 GMT+07:00" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.tests.LoginTest@3c19aaa5]" started-at="2026-03-20T22:20:58 GMT+07:00" name="tearDown" finished-at="2026-03-20T22:20:59 GMT+07:00" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- framework.tests.LoginTest -->
+      <class name="framework.tests.CartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:framework.tests.CartTest@65fb9ffc]" started-at="2026-03-20T22:20:59 GMT+07:00" name="setUp" finished-at="2026-03-20T22:21:01 GMT+07:00" duration-ms="1866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddFirstItemToCart()[pri:0, instance:framework.tests.CartTest@65fb9ffc]" started-at="2026-03-20T22:21:01 GMT+07:00" name="testAddFirstItemToCart" finished-at="2026-03-20T22:21:01 GMT+07:00" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddFirstItemToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.tests.CartTest@65fb9ffc]" started-at="2026-03-20T22:21:01 GMT+07:00" name="tearDown" finished-at="2026-03-20T22:21:01 GMT+07:00" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:framework.tests.CartTest@65fb9ffc]" started-at="2026-03-20T22:21:01 GMT+07:00" name="setUp" finished-at="2026-03-20T22:21:04 GMT+07:00" duration-ms="2680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddSpecificItemToCart()[pri:0, instance:framework.tests.CartTest@65fb9ffc]" started-at="2026-03-20T22:21:04 GMT+07:00" name="testAddSpecificItemToCart" finished-at="2026-03-20T22:21:04 GMT+07:00" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddSpecificItemToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.tests.CartTest@65fb9ffc]" started-at="2026-03-20T22:21:04 GMT+07:00" name="tearDown" finished-at="2026-03-20T22:21:05 GMT+07:00" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:framework.tests.CartTest@65fb9ffc]" started-at="2026-03-20T22:21:05 GMT+07:00" name="setUp" finished-at="2026-03-20T22:21:07 GMT+07:00" duration-ms="2044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCartWithoutItemReturnsZero()[pri:0, instance:framework.tests.CartTest@65fb9ffc]" started-at="2026-03-20T22:21:07 GMT+07:00" name="testCartWithoutItemReturnsZero" finished-at="2026-03-20T22:21:10 GMT+07:00" duration-ms="3370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartWithoutItemReturnsZero -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.tests.CartTest@65fb9ffc]" started-at="2026-03-20T22:21:10 GMT+07:00" name="tearDown" finished-at="2026-03-20T22:21:10 GMT+07:00" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:framework.tests.CartTest@65fb9ffc]" started-at="2026-03-20T22:21:10 GMT+07:00" name="setUp" finished-at="2026-03-20T22:21:12 GMT+07:00" duration-ms="1637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFluentInterfaceGoToCart()[pri:0, instance:framework.tests.CartTest@65fb9ffc]" started-at="2026-03-20T22:21:12 GMT+07:00" name="testFluentInterfaceGoToCart" finished-at="2026-03-20T22:21:12 GMT+07:00" duration-ms="545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFluentInterfaceGoToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.tests.CartTest@65fb9ffc]" started-at="2026-03-20T22:21:12 GMT+07:00" name="tearDown" finished-at="2026-03-20T22:21:13 GMT+07:00" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:framework.tests.CartTest@65fb9ffc]" started-at="2026-03-20T22:21:13 GMT+07:00" name="setUp" finished-at="2026-03-20T22:21:14 GMT+07:00" duration-ms="1337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetItemNamesInCart()[pri:0, instance:framework.tests.CartTest@65fb9ffc]" started-at="2026-03-20T22:21:14 GMT+07:00" name="testGetItemNamesInCart" finished-at="2026-03-20T22:21:15 GMT+07:00" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetItemNamesInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.tests.CartTest@65fb9ffc]" started-at="2026-03-20T22:21:15 GMT+07:00" name="tearDown" finished-at="2026-03-20T22:21:15 GMT+07:00" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:framework.tests.CartTest@65fb9ffc]" started-at="2026-03-20T22:21:15 GMT+07:00" name="setUp" finished-at="2026-03-20T22:21:16 GMT+07:00" duration-ms="1345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveFirstItemFromCart()[pri:0, instance:framework.tests.CartTest@65fb9ffc]" started-at="2026-03-20T22:21:16 GMT+07:00" name="testRemoveFirstItemFromCart" finished-at="2026-03-20T22:21:20 GMT+07:00" duration-ms="3937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveFirstItemFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.tests.CartTest@65fb9ffc]" started-at="2026-03-20T22:21:20 GMT+07:00" name="tearDown" finished-at="2026-03-20T22:21:20 GMT+07:00" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- framework.tests.CartTest -->
+    </test> <!-- SauceDemo Tests -->
+  </suite> <!-- SauceDemo Suite -->
+</testng-results>

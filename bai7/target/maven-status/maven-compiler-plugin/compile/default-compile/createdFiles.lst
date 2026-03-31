@@ -1,0 +1,7 @@
+framework\pages\InventoryPage.class
+framework\base\BasePage.class
+framework\utils\ExcelReader.class
+framework\pages\LoginPage.class
+framework\base\DriverFactory.class
+framework\utils\ExcelReader$1.class
+framework\pages\CartPage.class

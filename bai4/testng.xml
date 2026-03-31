@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Bai4_Suite" parallel="false">
+    <test name="JSON and Faker Tests">
+        <classes>
+            <class name="framework.tests.UserLoginTest"/>
+            <class name="framework.tests.CheckoutFakerTest"/>
+        </classes>
+    </test>
+</suite>

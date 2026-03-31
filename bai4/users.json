@@ -1,0 +1,37 @@
+[
+  {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "role": "standard",
+    "expectSuccess": true,
+    "description": "Đăng nhập thành công với standard_user"
+  },
+  {
+    "username": "problem_user",
+    "password": "secret_sauce",
+    "role": "problem",
+    "expectSuccess": true,
+    "description": "Đăng nhập thành công với problem_user"
+  },
+  {
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "role": "locked",
+    "expectSuccess": false,
+    "description": "Đăng nhập thất bại với locked_out_user"
+  },
+  {
+    "username": "standard_user",
+    "password": "wrong_password",
+    "role": "invalid_password",
+    "expectSuccess": false,
+    "description": "Đăng nhập thất bại do sai mật khẩu"
+  },
+  {
+    "username": "",
+    "password": "",
+    "role": "empty",
+    "expectSuccess": false,
+    "description": "Đăng nhập thất bại khi bỏ trống cả 2 trường"
+  }
+]
